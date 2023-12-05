@@ -1673,30 +1673,40 @@ input, select, textarea {
 			min-width: 14em;
 		}
 
-		input[type="button"].style1,
-		input[type="submit"].style1,
-		input[type="reset"].style1,
-		button.style1,
-		.button.style1 {
+		.button-container {
+			display: flex;
+			justify-content: space-between; /* Distributes buttons evenly */
+		  }
+		  
+		  input[type="button"].style1,
+		  input[type="submit"].style1,
+		  input[type="reset"].style1,
+		  button.style1,
+		  .button.style1 {
 			background: #663399 url("images/overlay.png");
 			color: #fff;
-		}
-
-			input[type="button"].style1:hover,
-			input[type="submit"].style1:hover,
-			input[type="reset"].style1:hover,
-			button.style1:hover,
-			.button.style1:hover {
-				background-color: #FFCC00;
-			}
-
-			input[type="button"].style1:active,
-			input[type="submit"].style1:active,
-			input[type="reset"].style1:active,
-			button.style1:active,
-			.button.style1:active {
-				background-color: #FFCC00;
-			}
+			padding: 10px 20px; /* Set consistent padding for all buttons */
+			border: none;
+			cursor: pointer;
+			margin: 0; /* Remove default margin for consistent spacing */
+		  }
+		  
+		  input[type="button"].style1:hover,
+		  input[type="submit"].style1:hover,
+		  input[type="reset"].style1:hover,
+		  button.style1:hover,
+		  .button.style1:hover {
+			background-color: #FFCC00;
+		  }
+		  
+		  input[type="button"].style1:active,
+		  input[type="submit"].style1:active,
+		  input[type="reset"].style1:active,
+		  button.style1:active,
+		  .button.style1:active {
+			background-color: #FFCC00;
+		  }
+		  
 
 		input[type="button"].style2,
 		input[type="submit"].style2,
