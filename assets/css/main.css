@@ -2019,13 +2019,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #484d55 url("images/overlay.png");
+			background: #282b34 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #000000 url("images/overlay.png");
+				background: #282b34 url("images/overlay.png");
 				color: #fff;
 			}
 
