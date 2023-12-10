@@ -1685,7 +1685,6 @@ input, select, textarea {
 		  .button.style1 {
 			background: #663399 url("images/overlay.png");
 			color: #fff;
-			padding: 10px 20px; /* Set consistent padding for all buttons */
 			border: none;
 			cursor: pointer;
 			margin: 0; /* Remove default margin for consistent spacing */
